@@ -39,7 +39,11 @@
 
 7. Create new rails application
 
+    Create directory to hold your code
+
     `mkdir code`
+    
+    cd into the directory
 
     `cd code`
 
@@ -48,3 +52,23 @@
     `cd myapp`
 
     `rvm use ruby-2.x.x@rails5.0 --ruby-version --create`
+
+    Create new rails app
+
+    `rails new .`
+
+# Installing vim.
+
+We can use a version that is already setup with plugins necessary to kick us off
+
+On your command prompt run the following command
+
+`curl http://j.mp/spf13-vim3 -L -o - | sh`
+
+For more on customization and how to setup more plugins visit the official site 
+[here](http://vim.spf13.com/)
+
+Be patient while vim installs
+
+If you do not have prior experience with vim, type `vimtutor` on your terminal to have a brief
+interactive tutorial
