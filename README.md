@@ -5,7 +5,7 @@
 
     `sudo apt-get install curl`
 
-2. Install rvm
+2. Install rvm then ruby
 
     `$ \curl -L https://get.rvm.io | bash -s stable --ruby`
 
@@ -37,7 +37,11 @@
 
     `gem install pg`
 
-7. Create new rails application
+7. Install rails
+
+   `gem install rails`
+
+8. Create new rails application
 
     Create directory to hold your code
 
