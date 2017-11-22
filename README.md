@@ -28,7 +28,7 @@
 
     `rvm gemset use global`
 
-    `$ echo "gem: --no-document" >> ~/.gemrc`
+    `echo "gem: --no-document" >> ~/.gemrc`
 
     `gem install bundler`
 
